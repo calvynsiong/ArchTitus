@@ -22,12 +22,13 @@ git clone "https://github.com/ChrisTitusTech/zsh"
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $HOME/powerlevel10k
 ln -s "$HOME/zsh/.zshrc" $HOME/.zshrc
 
+# 'brave-bin' # Brave Browser
 PKGS=(
 'autojump'
 'awesome-terminal-fonts'
-'brave-bin' # Brave Browser
-'dxvk-bin' # DXVK DirectX to Vulcan
+'dxvk-bin' # DXVK DirectX to Vulcan;
 'github-desktop-bin' # Github Desktop sync
+'google-chrome' # Chrome browser
 'lightly-git'
 'lightlyshaders-git'
 'mangohud' # Gaming FPS Counter
@@ -48,6 +49,7 @@ PKGS=(
 'ttf-meslo' # Nerdfont package
 'ttf-roboto'
 'zoom' # video conferences
+'teams' # MS teams
 'snap-pac'
 )
 
